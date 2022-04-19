@@ -1,0 +1,23 @@
+let age = 18;
+
+ let tt = typeof age
+ console.log(tt)
+
+if (typeof(age) == "number") {
+
+    if (age >= 18 && age < 60) {
+    
+        console.log("Adult")
+    }
+    else if (age < 18 ) {
+
+        console.log("young/baby")
+    }
+    else if (age >=60) {
+
+        console.log("old")
+    } 
+    else {
+        console.log("Error")
+    }
+}
